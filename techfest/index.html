@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navigation Bar linking different sections of Webpage</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f9ff;
+      margin: 0;
+      padding: 0;
+    }
+    nav {
+      background-color: #003366;
+      padding: 15px;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+      font-size: 16px;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+      border-bottom: 1px solid #ccc;
+    }
+    h2 {
+      color: #003366;
+      border-bottom: 2px solid #003366;
+      padding-bottom: 5px;
+    }
+    img.profile {
+      float: right;
+      margin-right: 20px;
+      margin-top: -13px;
+      border-radius: 100%;
+      width: 120px;
+      height: auto;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 15px;
+    }
+    th, td {
+      padding: 10px;
+      border: 1px solid #aaa;
+      text-align: left;
+    }
+    .contact-link {
+      font-size: 18px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#personal">Personal</a>
+    <a href="#education">Education</a>
+    <a href="#experience">Experience</a>
+    <a href="#hobbies">Hobbies/Interests</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home">
+    <h2>Welcome</h2>
+    <img src="/images/IMG_20231116_105217_504.jpg" class="profile" alt="Your Photo">
+    <p>Hello! I'm <strong>Saloni Rana</strong>, currently pursuing <strong>B.Tech in Computer Engineering</strong> from <strong>Sarvajanik College Of Engineering and Technology, Surat</strong>. I am proud to get a chance of becoming a part of Campus Ambassador Program of IIT Bombay Techfest.</p>
+  </section>
+
+  <!-- Personal Details -->
+  <section id="personal">
+    <h2>Personal Details</h2>
+    <p><strong>Name:</strong> Saloni Rana</p>
+    <p><strong>Date of Birth:</strong> 08-12-2005</p>
+    <p><strong>Gender:</strong> Female</p>
+    <p><strong>Email:</strong> salonirana.co23d1@scet.ac.in</p>
+    <p><strong>Phone:</strong> +91-XXXXXXXX53</p>
+    <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/saloni-rana-539a4436a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">View Profile</a></p>
+  </section>
+
+  <!-- Education Section -->
+  <section id="education">
+    <h2>Educational Details</h2>
+    <table>
+      <tr>
+        <th>Degree</th>
+        <th>Institution</th>
+        <th>Year</th>
+        <th>Percentage / CGPA</th>
+      </tr>
+      <tr>
+        <td>B.Tech in Computer Engineering</td>
+        <td>Sarvajanik College Of Engineering and Technology</td>
+        <td>2022 – 2027</td>
+        <td>9.79 CGPA</td>
+      </tr>
+    </table>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience">
+    <h2>Experience</h2>
+    <ul>
+      <li><strong>Web Development Project</strong>
+        <br>Created a responsive Brain Games Webite-NeuroNoni.
+      </li>
+      <li><strong>Event Volunteer - College Cultural Fest</strong>
+        <br>Managed registration and management for cultural events.
+      </li>
+    </ul>
+  </section>
+
+  <!-- Hobbies -->
+  <section id="hobbies">
+    <h2>Hobbies/Interests</h2>
+    <ul>
+      <li>Drawing and digital art</li>
+      <li>Web development and pixel design</li>
+      <li>Brain Games and puzzle</li>
+    </ul>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p class="contact-link">📧 <a href="mailto:youremail@example.com">salonirana.co23d1@scet.ac.in</a></p>
+    <p>📞 +91-XXXXXXXX53</p>
+  </section>
+</body>
+</html>
